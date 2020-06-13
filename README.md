@@ -3,7 +3,7 @@ List of citation bibtex to various Python science and machine learning software.
 
 Cite them by copying the contents of [main.bib](https://raw.githubusercontent.com/MilesCranmer/python_citations/master/main.bib) into your
 bib file. Cite them all with citation:
-```
+```latex
 \cite{numpy,scipy,sklearn,jupyter,matplotlib,pandas,torch,tensorflow,torch_geometric}
 ```
 
@@ -59,7 +59,7 @@ bib file. Cite them all with citation:
 ```
 ## `pandas`
 
-```
+```bibtex
 @INPROCEEDINGS{pandas,
   author    = { {W}es {M}c{K}inney },
   title     = { {D}ata {S}tructures for {S}tatistical {C}omputing in {P}ython },
@@ -72,7 +72,7 @@ bib file. Cite them all with citation:
 ```
 
 ## `sklearn`
-```
+```bibtex
 @ARTICLE{sklearn,
   author  = {Fabian Pedregosa and Ga{{\"e}}l Varoquaux and Alexandre Gramfort and Vincent Michel and Bertrand Thirion and Olivier Grisel and Mathieu Blondel and Peter Prettenhofer and Ron Weiss and Vincent Dubourg and Jake Vanderplas and Alexandre Passos and David Cournapeau and Matthieu Brucher and Matthieu Perrot and {{\'E}}douard Duchesnay},
   title   = {{Scikit-learn: Machine Learning in Python}},
