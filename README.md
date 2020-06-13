@@ -1,17 +1,9 @@
 # Python citations
 List of citation bibtex to various Python science and machine learning software
-List:
-`numpy`
-`scipy`
-`sklearn`
-`jupyter`
-`matplotlib`
-`tqdm`
-`celluloid`
-`pandas`
-`torch`
-`tensorflow`
-`torch_geometric`
+Cite them all by copying in main.bib with
+```
+\cite{numpy,scipy,sklearn,jupyter,matplotlib,pandas,torch,tensorflow,torch_geometric}
+```
 
 
 ## `numpy`
@@ -79,7 +71,7 @@ List:
 
 ## `sklearn`
 ```
-@article{JMLR:v12:pedregosa11a,
+@article{sklearn,
   author  = {Fabian Pedregosa and Ga{{\"e}}l Varoquaux and Alexandre Gramfort and Vincent Michel and Bertrand Thirion and Olivier Grisel and Mathieu Blondel and Peter Prettenhofer and Ron Weiss and Vincent Dubourg and Jake Vanderplas and Alexandre Passos and David Cournapeau and Matthieu Brucher and Matthieu Perrot and {{\'E}}douard Duchesnay},
   title   = {{Scikit-learn: Machine Learning in Python}},
   journal = {{J}ournal of {M}achine {L}earning {R}esearch},
@@ -104,9 +96,38 @@ List:
   pages={90-95},}
 ```
 
-## `tqdm`
-## `celluloid`
-## `pandas`
 ## `torch`
+
+```bibtex
+@INCOLLECTION{torch,
+	title = {{P}y{T}orch: {A}n {I}mperative {S}tyle, {H}igh-{P}erformance {D}eep {L}earning {L}ibrary},
+	author = {Paszke, Adam and Gross, Sam and Massa, Francisco and Lerer, Adam and Bradbury, James and Chanan, Gregory and Killeen, Trevor and Lin, Zeming and Gimelshein, Natalia and Antiga, Luca and Desmaison, Alban and Kopf, Andreas and Yang, Edward and DeVito, Zachary and Raison, Martin and Tejani, Alykhan and Chilamkurthy, Sasank and Steiner, Benoit and Fang, Lu and Bai, Junjie and Chintala, Soumith},
+	booktitle = {Advances in Neural Information Processing Systems 32},
+	editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle Alch\'{e}-Buc and E. Fox and R. Garnett},
+	pages = {8024--8035},
+	year = {2019},
+	publisher = {Curran Associates, Inc.},
+	url = {http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf}
+}
+```
+
 ## `tensorflow`
+```bibtex
+@INPROCEEDINGS{tensorflow,
+  title={{Tensorflow: A system for large-scale machine learning}},
+  author={Abadi, Mart{\'\i}n and Barham, Paul and Chen, Jianmin and Chen, Zhifeng and Davis, Andy and Dean, Jeffrey and Devin, Matthieu and Ghemawat, Sanjay and Irving, Geoffrey and Isard, Michael and others},
+  booktitle={12th $\{$USENIX$\}$ Symposium on Operating Systems Design and Implementation ($\{$OSDI$\}$ 16)},
+  pages={265--283},
+  year={2016}
+}
+```
+
 ## `torch_geometric`
+```bibtex
+@INPROCEEDINGS{torch_geometric,
+  title={Fast Graph Representation Learning with {PyTorch Geometric}},
+  author={Fey, Matthias and Lenssen, Jan E.},
+  booktitle={ICLR Workshop on Representation Learning on Graphs and Manifolds},
+  year={2019},
+}
+```
