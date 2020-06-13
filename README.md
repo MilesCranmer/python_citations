@@ -58,7 +58,7 @@ Cite them all by copying in main.bib with
 ## `pandas`
 
 ```
-@InProceedings{pandas,
+@INPROCEEDINGS{pandas,
   author    = { {W}es {M}c{K}inney },
   title     = { {D}ata {S}tructures for {S}tatistical {C}omputing in {P}ython },
   booktitle = { {P}roceedings of the 9th {P}ython in {S}cience {C}onference },
@@ -71,7 +71,7 @@ Cite them all by copying in main.bib with
 
 ## `sklearn`
 ```
-@article{sklearn,
+@ARTICLE{sklearn,
   author  = {Fabian Pedregosa and Ga{{\"e}}l Varoquaux and Alexandre Gramfort and Vincent Michel and Bertrand Thirion and Olivier Grisel and Mathieu Blondel and Peter Prettenhofer and Ron Weiss and Vincent Dubourg and Jake Vanderplas and Alexandre Passos and David Cournapeau and Matthieu Brucher and Matthieu Perrot and {{\'E}}douard Duchesnay},
   title   = {{Scikit-learn: Machine Learning in Python}},
   journal = {{J}ournal of {M}achine {L}earning {R}esearch},
