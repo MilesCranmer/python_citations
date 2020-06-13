@@ -11,7 +11,7 @@ List:
 `pandas`
 `torch`
 `tensorflow`
-`torch\_geometric`
+`torch_geometric`
 
 
 ## `numpy`
@@ -19,7 +19,7 @@ List:
 @ARTICLE{numpy,
   author={S. {van der Walt} and S. C. {Colbert} and G. {Varoquaux}},
   journal={Computing in Science   Engineering}, 
-  title={The NumPy Array: A Structure for Efficient Numerical Computation}, 
+  title={{The NumPy Array: A Structure for Efficient Numerical Computation}}, 
   year={2011},
   volume={13},
   number={2},
@@ -60,14 +60,53 @@ List:
 	Editor = {F. Loizides and B. Schmidt},
 	Organization = {IOS Press},
 	Pages = {87 - 90},
-	Title = {Jupyter Notebooks -- a publishing format for reproducible computational workflows},
+	Title = {{J}upyter {N}otebooks -- a publishing format for reproducible computational workflows},
 	Year = {2016}}
 ```
+## `pandas`
+
+```
+@InProceedings{pandas,
+  author    = { {W}es {M}c{K}inney },
+  title     = { {D}ata {S}tructures for {S}tatistical {C}omputing in {P}ython },
+  booktitle = { {P}roceedings of the 9th {P}ython in {S}cience {C}onference },
+  pages     = { 56 - 61 },
+  year      = { 2010 },
+  editor    = { {S}t\'efan van der {W}alt and {J}arrod {M}illman },
+  doi       = { 10.25080/Majora-92bf1922-00a }
+}
+```
+
 ## `sklearn`
+```
+@article{JMLR:v12:pedregosa11a,
+  author  = {Fabian Pedregosa and Ga{{\"e}}l Varoquaux and Alexandre Gramfort and Vincent Michel and Bertrand Thirion and Olivier Grisel and Mathieu Blondel and Peter Prettenhofer and Ron Weiss and Vincent Dubourg and Jake Vanderplas and Alexandre Passos and David Cournapeau and Matthieu Brucher and Matthieu Perrot and {{\'E}}douard Duchesnay},
+  title   = {{Scikit-learn: Machine Learning in Python}},
+  journal = {{J}ournal of {M}achine {L}earning {R}esearch},
+  year    = {2011},
+  volume  = {12},
+  number  = {85},
+  pages   = {2825-2830},
+  url     = {http://jmlr.org/papers/v12/pedregosa11a.html}
+}
+```
+
 ## `matplotlib`
+
+```bibtex
+@ARTICLE{matplotlib,
+  author={J. D. {Hunter}},
+  journal={{C}omputing in {S}cience \& {E}ngineering}, 
+  title={{Matplotlib: A 2D Graphics Environment}}, 
+  year={2007},
+  volume={9},
+  number={3},
+  pages={90-95},}
+```
+
 ## `tqdm`
 ## `celluloid`
 ## `pandas`
 ## `torch`
 ## `tensorflow`
-## `torch\_geometric`
+## `torch_geometric`
