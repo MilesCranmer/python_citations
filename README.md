@@ -1,6 +1,8 @@
 # Python citations
-List of citation bibtex to various Python science and machine learning software
-Cite them all by copying in main.bib with
+List of citation bibtex to various Python science and machine learning software.
+
+Cite them by copying the contents of [main.bib](https://raw.githubusercontent.com/MilesCranmer/python_citations/master/main.bib) into your
+bib file. Cite them all with citation:
 ```
 \cite{numpy,scipy,sklearn,jupyter,matplotlib,pandas,torch,tensorflow,torch_geometric}
 ```
