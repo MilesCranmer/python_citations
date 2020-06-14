@@ -2,9 +2,9 @@
 List of citation bibtex to various Python science and machine learning software.
 
 Cite them by copying the contents of [main.bib](https://raw.githubusercontent.com/MilesCranmer/python_citations/master/main.bib) into your
-bib file. Cite them all with citation:
+bib file. Cite them with citation (remove those you don't use):
 ```latex
-\cite{numpy,scipy,sklearn,jupyter,matplotlib,pandas,torch,tensorflow,torch_geometric}
+\cite{numpy,scipy,jupyter,sklearn,matplotlib,pandas,torch,tensorflow,torch_geometric,astropy}
 ```
 
 
@@ -46,6 +46,7 @@ bib file. Cite them all with citation:
       doi = {https://doi.org/10.1038/s41592-019-0686-2},
 }
 ```
+
 ## `jupyter`
 ```bibtex
 @CONFERENCE{jupyter,
@@ -131,5 +132,69 @@ bib file. Cite them all with citation:
   author={Fey, Matthias and Lenssen, Jan E.},
   booktitle={ICLR Workshop on Representation Learning on Graphs and Manifolds},
   year={2019},
+}
+```
+
+## `astropy`
+```bibtex
+@ARTICLE{astropy,
+       author = {{Astropy Collaboration} and {Price-Whelan}, A.~M. and
+         {Sip{\H{o}}cz}, B.~M. and {G{\"u}nther}, H.~M. and {Lim}, P.~L. and
+         {Crawford}, S.~M. and {Conseil}, S. and {Shupe}, D.~L. and
+         {Craig}, M.~W. and {Dencheva}, N. and {Ginsburg}, A. and {Vand
+        erPlas}, J.~T. and {Bradley}, L.~D. and {P{\'e}rez-Su{\'a}rez}, D. and
+         {de Val-Borro}, M. and {Aldcroft}, T.~L. and {Cruz}, K.~L. and
+         {Robitaille}, T.~P. and {Tollerud}, E.~J. and {Ardelean}, C. and
+         {Babej}, T. and {Bach}, Y.~P. and {Bachetti}, M. and {Bakanov}, A.~V. and
+         {Bamford}, S.~P. and {Barentsen}, G. and {Barmby}, P. and
+         {Baumbach}, A. and {Berry}, K.~L. and {Biscani}, F. and {Boquien}, M. and
+         {Bostroem}, K.~A. and {Bouma}, L.~G. and {Brammer}, G.~B. and
+         {Bray}, E.~M. and {Breytenbach}, H. and {Buddelmeijer}, H. and
+         {Burke}, D.~J. and {Calderone}, G. and {Cano Rodr{\'\i}guez}, J.~L. and
+         {Cara}, M. and {Cardoso}, J.~V.~M. and {Cheedella}, S. and {Copin}, Y. and
+         {Corrales}, L. and {Crichton}, D. and {D'Avella}, D. and {Deil}, C. and
+         {Depagne}, {\'E}. and {Dietrich}, J.~P. and {Donath}, A. and
+         {Droettboom}, M. and {Earl}, N. and {Erben}, T. and {Fabbro}, S. and
+         {Ferreira}, L.~A. and {Finethy}, T. and {Fox}, R.~T. and
+         {Garrison}, L.~H. and {Gibbons}, S.~L.~J. and {Goldstein}, D.~A. and
+         {Gommers}, R. and {Greco}, J.~P. and {Greenfield}, P. and
+         {Groener}, A.~M. and {Grollier}, F. and {Hagen}, A. and {Hirst}, P. and
+         {Homeier}, D. and {Horton}, A.~J. and {Hosseinzadeh}, G. and {Hu}, L. and
+         {Hunkeler}, J.~S. and {Ivezi{\'c}}, {\v{Z}}. and {Jain}, A. and
+         {Jenness}, T. and {Kanarek}, G. and {Kendrew}, S. and {Kern}, N.~S. and
+         {Kerzendorf}, W.~E. and {Khvalko}, A. and {King}, J. and {Kirkby}, D. and
+         {Kulkarni}, A.~M. and {Kumar}, A. and {Lee}, A. and {Lenz}, D. and
+         {Littlefair}, S.~P. and {Ma}, Z. and {Macleod}, D.~M. and
+         {Mastropietro}, M. and {McCully}, C. and {Montagnac}, S. and
+         {Morris}, B.~M. and {Mueller}, M. and {Mumford}, S.~J. and {Muna}, D. and
+         {Murphy}, N.~A. and {Nelson}, S. and {Nguyen}, G.~H. and
+         {Ninan}, J.~P. and {N{\"o}the}, M. and {Ogaz}, S. and {Oh}, S. and
+         {Parejko}, J.~K. and {Parley}, N. and {Pascual}, S. and {Patil}, R. and
+         {Patil}, A.~A. and {Plunkett}, A.~L. and {Prochaska}, J.~X. and
+         {Rastogi}, T. and {Reddy Janga}, V. and {Sabater}, J. and
+         {Sakurikar}, P. and {Seifert}, M. and {Sherbert}, L.~E. and
+         {Sherwood-Taylor}, H. and {Shih}, A.~Y. and {Sick}, J. and
+         {Silbiger}, M.~T. and {Singanamalla}, S. and {Singer}, L.~P. and
+         {Sladen}, P.~H. and {Sooley}, K.~A. and {Sornarajah}, S. and
+         {Streicher}, O. and {Teuben}, P. and {Thomas}, S.~W. and
+         {Tremblay}, G.~R. and {Turner}, J.~E.~H. and {Terr{\'o}n}, V. and
+         {van Kerkwijk}, M.~H. and {de la Vega}, A. and {Watkins}, L.~L. and
+         {Weaver}, B.~A. and {Whitmore}, J.~B. and {Woillez}, J. and
+         {Zabalza}, V. and {Astropy Contributors}},
+        title = "{The Astropy Project: Building an Open-science Project and Status of the v2.0 Core Package}",
+      journal = {\aj},
+     keywords = {methods: data analysis, methods: miscellaneous, methods: statistical, reference systems, Astrophysics - Instrumentation and Methods for Astrophysics},
+         year = 2018,
+        month = sep,
+       volume = {156},
+       number = {3},
+          eid = {123},
+        pages = {123},
+          doi = {10.3847/1538-3881/aabc4f},
+archivePrefix = {arXiv},
+       eprint = {1801.02634},
+ primaryClass = {astro-ph.IM},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2018AJ....156..123A},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 ```
