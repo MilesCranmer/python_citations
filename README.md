@@ -199,3 +199,30 @@ archivePrefix = {arXiv},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 ```
+
+## `xarray`
+```bibtex
+@ARTICLE{hoyer2017xarray,
+  title     = {xarray: {N-D} labeled arrays and datasets in {Python}},
+  author    = {Hoyer, S. and J. Hamman},
+  journal   = {Journal of Open Research Software},
+  volume    = {5},
+  number    = {1},
+  year      = {2017},
+  publisher = {Ubiquity Press},
+  doi       = {10.5334/jors.148},
+  url       = {http://doi.org/10.5334/jors.148}
+}
+```
+
+## `cartopy`
+```bibtex
+@MANUAL{Cartopy,
+author = {{Met Office}},
+title = {Cartopy: a cartographic python library with a Matplotlib interface},
+year = {2010 - 2015},
+address = {Exeter, Devon },
+url = {https://scitools.org.uk/cartopy}
+}
+```
+
