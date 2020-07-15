@@ -202,7 +202,7 @@ archivePrefix = {arXiv},
 
 ## `xarray`
 ```bibtex
-@ARTICLE{hoyer2017xarray,
+@ARTICLE{xarray,
   title     = {xarray: {N-D} labeled arrays and datasets in {Python}},
   author    = {Hoyer, S. and J. Hamman},
   journal   = {Journal of Open Research Software},
@@ -215,14 +215,19 @@ archivePrefix = {arXiv},
 }
 ```
 
-## `cartopy`
+## `cartopy (0.18)`
 ```bibtex
-@MANUAL{Cartopy,
-author = {{Met Office}},
-title = {Cartopy: a cartographic python library with a Matplotlib interface},
-year = {2010 - 2015},
-address = {Exeter, Devon },
-url = {https://scitools.org.uk/cartopy}
+@MISC{cartopy,
+	title = {{SciTools}/cartopy: {Cartopy} 0.18.0},
+	shorttitle = {{SciTools}/cartopy},
+	url = {https://zenodo.org/record/3783894},
+	abstract = {Major changes include: Support for building against Proj 6. Support for Python 3.7 and 3.8. Support for Matplotlib 3.2 and 3.3. Support for labelling gridlines on all projections. Support for labelling gridlines within plot boundaries instead of edges. Support for labelling of contours. and many others. There are several bug fixes as well. See the milestone for more information. Contributors @MBradbury @MarkWieczorek @QuLogic @ahuang11 @dopplershift @greglucas @htonchia @hugovk @kacmak7 @kaedonkers @ocefpaf @pelson @pharshalp @raphaelquast @sadielbartholomew @shevawen @snowman2 @stefraynaud @stephenworsley @wrongkindofdoctor @zbruick},
+	urldate = {2020-07-14},
+	publisher = {Zenodo},
+	author = {Phil Elson and Elliott Sales de Andrade and Richard Hattersley and Ed Campbell and Ryan May and Andrew Dawson and Stephane Raynaud and Greg and scmc72 and Bill Little and Kevin Donkers and Byron Blay and Peter Killick and marqh and lbdreyer and Patrick Peglar and Nat Wilson and Jon Szymaniak and Andrew and Filipe and Corinne Bosley and Daniel Kirkham and Matthew Bradbury and Julia Signell and Mark Wieczorek and Lion Krischer and Hugo van Kemenade and htonchia and Daniel Eriksson and Andrea Smith},
+	month = may,
+	year = {2020},
+	doi = {10.5281/zenodo.3783894},
 }
 ```
 
