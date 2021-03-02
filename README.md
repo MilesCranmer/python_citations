@@ -18,7 +18,7 @@ Another format, indicating the name of the package in `\texttt` style, is as fol
 \texttt{pandas} \citep{pandas},
 \texttt{torch} \citep{torch},
 \texttt{tensorflow} \citep{tensorflow},
-\texttt{torch_geometric} \citep{torch_geometric},
+\texttt{torch\_geometric} \citep{torch_geometric},
 \texttt{astropy} \citep{astropy},
 \texttt{xarray} \citep{xarray},
 \texttt{cartopy} \citep{cartopy},
