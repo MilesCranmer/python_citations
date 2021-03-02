@@ -6,7 +6,23 @@ bib file. Cite the packages with:
 ```latex
 \cite{numpy,scipy,jupyter,sklearn,matplotlib,pandas,torch,tensorflow,torch_geometric,astropy,xarray,cartopy}
 ```
-(remove any you don't use)
+(remove any you don't use).
+
+Another format, indicating the name of the package in `\texttt` style, is as follows:
+```latex
+\texttt{numpy} \citep{numpy},
+\texttt{scipy} \citep{scipy},
+\texttt{jupyter} \citep{jupyter},
+\texttt{sklearn} \citep{sklearn},
+\texttt{matplotlib} \citep{matplotlib},
+\texttt{pandas} \citep{pandas},
+\texttt{torch} \citep{torch},
+\texttt{tensorflow} \citep{tensorflow},
+\texttt{torch_geometric} \citep{torch_geometric},
+\texttt{astropy} \citep{astropy},
+\texttt{xarray} \citep{xarray},
+\texttt{cartopy} \citep{cartopy},
+```
 
 
 ## `numpy`
