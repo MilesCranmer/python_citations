@@ -4,7 +4,7 @@ bibtex for various Python science and machine learning software.
 Copy the contents of [main.bib](https://raw.githubusercontent.com/MilesCranmer/python_citations/master/main.bib) into your
 bib file. Cite the packages with:
 ```latex
-\cite{numpy,scipy,jupyter,sklearn,matplotlib,pandas,torch,tensorflow,torch_geometric,astropy,xarray,cartopy}
+\cite{numpy,scipy,jupyter,sklearn,matplotlib,pandas,torch,tensorflow,torch_geometric,astropy,xarray,cartopy,pytorch_lightning}
 ```
 (remove any you don't use).
 
@@ -22,6 +22,7 @@ Another format, indicating the name of the package in `\texttt` style, is as fol
 \texttt{astropy} \citep{astropy},
 \texttt{xarray} \citep{xarray},
 \texttt{cartopy} \citep{cartopy},
+\texttt{pytorch\_lightning} \citep{pytorch_lightning},
 ```
 
 
@@ -254,3 +255,14 @@ archivePrefix = {arXiv},
 }
 ```
 
+## `pytorch_lightning`
+
+```bibtex
+@article{pytorch_lightning,
+  title={PyTorch Lightning},
+  author={Falcon, WA and .al},
+  journal={GitHub. Note: https://github.com/PyTorchLightning/pytorch-lightning},
+  volume={3},
+  year={2019}
+}
+```
