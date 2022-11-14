@@ -10,20 +10,20 @@ bib file. Cite the packages with:
 
 Another format, indicating the name of the package in `\texttt` style, is as follows:
 ```latex
-\texttt{numpy} \citep{numpy},
-\texttt{scipy} \citep{scipy},
-\texttt{jupyter} \citep{jupyter},
-\texttt{sklearn} \citep{sklearn},
-\texttt{matplotlib} \citep{matplotlib},
-\texttt{pandas} \citep{pandas},
-\texttt{torch} \citep{torch},
-\texttt{tensorflow} \citep{tensorflow},
-\texttt{torch\_geometric} \citep{torch_geometric},
-\texttt{astropy} \citep{astropy},
-\texttt{xarray} \citep{xarray},
-\texttt{cartopy} \citep{cartopy},
-\texttt{pytorch\_lightning} \citep{pytorch_lightning},
-\texttt{julia} \citep{julia},
+\texttt{numpy} \cite{numpy},
+\texttt{scipy} \cite{scipy},
+\texttt{jupyter} \cite{jupyter},
+\texttt{sklearn} \cite{sklearn},
+\texttt{matplotlib} \cite{matplotlib},
+\texttt{pandas} \cite{pandas},
+\texttt{torch} \cite{torch},
+\texttt{tensorflow} \cite{tensorflow},
+\texttt{torch\_geometric} \cite{torch_geometric},
+\texttt{astropy} \cite{astropy},
+\texttt{xarray} \cite{xarray},
+\texttt{cartopy} \cite{cartopy},
+\texttt{pytorch\_lightning} \cite{pytorch_lightning},
+\texttt{julia} \cite{julia},
 ```
 
 
