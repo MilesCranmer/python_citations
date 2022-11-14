@@ -4,7 +4,7 @@ bibtex for various Python science and machine learning software.
 Copy the contents of [main.bib](https://raw.githubusercontent.com/MilesCranmer/python_citations/master/main.bib) into your
 bib file. Cite the packages with:
 ```latex
-\cite{numpy,scipy,jupyter,sklearn,matplotlib,pandas,torch,tensorflow,torch_geometric,astropy,xarray,cartopy,pytorch_lightning}
+\cite{numpy,scipy,jupyter,sklearn,matplotlib,pandas,torch,tensorflow,torch_geometric,astropy,xarray,cartopy,pytorch_lightning,julia}
 ```
 (remove any you don't use).
 
@@ -23,6 +23,7 @@ Another format, indicating the name of the package in `\texttt` style, is as fol
 \texttt{xarray} \citep{xarray},
 \texttt{cartopy} \citep{cartopy},
 \texttt{pytorch\_lightning} \citep{pytorch_lightning},
+\texttt{julia} \citep{julia},
 ```
 
 
@@ -222,5 +223,24 @@ archivePrefix = {arXiv},
   journal={GitHub. Note: https://github.com/PyTorchLightning/pytorch-lightning},
   volume={3},
   year={2019}
+}
+```
+
+## `julia`
+
+```bibtex
+@article{julia,
+  title = {Julia: {{A Fresh Approach}} to {{Numerical Computing}}},
+  shorttitle = {Julia},
+  author = {Bezanson, Jeff and Edelman, Alan and Karpinski, Stefan and Shah, Viral B.},
+  year = {2015},
+  month = jul,
+  journal = {arXiv:1411.1607 [cs]},
+  eprint = {1411.1607},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  abstract = {Bridging cultures that have often been distant, Julia combines expertise from the diverse fields of computer science and computational science to create a new approach to numerical computing. Julia is designed to be easy and fast. Julia questions notions generally held as "laws of nature" by practitioners of numerical computing: 1. High-level dynamic programs have to be slow. 2. One must prototype in one language and then rewrite in another language for speed or deployment, and 3. There are parts of a system for the programmer, and other parts best left untouched as they are built by the experts. We introduce the Julia programming language and its design --- a dance between specialization and abstraction. Specialization allows for custom treatment. Multiple dispatch, a technique from computer science, picks the right algorithm for the right circumstance. Abstraction, what good computation is really about, recognizes what remains the same after differences are stripped away. Abstractions in mathematics are captured as code through another technique from computer science, generic programming. Julia shows that one can have machine performance without sacrificing human convenience.},
+  archiveprefix = {arXiv},
+  keywords = {Computer Science - Mathematical Software},
 }
 ```
